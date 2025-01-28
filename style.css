@@ -6,7 +6,7 @@ body {
 }
 
 /*HEADER*/
-.header { background-color: #000; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; } 
+.header { background-color: #000; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
 .header .contact-info { display: flex; gap: 20px; } 
 .header .contact-info i { margin-right: 5px; } 
 .header .logo { display: flex; align-items: center; } 
@@ -14,6 +14,21 @@ body {
 .header .social-icons { display: flex; gap: 10px; } 
 .header .social-icons i { font-size: 20px; } 
 
+.header-logo { background-color: #c1121f; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; } 
+.header-logo img{height: 60px; border-radius: 20px; }
+
+.iconos-redes{ 
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+.iconos-redes a {
+    align-items: flex-end;
+    color: white;
+    }
+.iconos-redes a:hover {
+    color: #999;
+}
 /*MAIN*/
 .main-content {
   text-align: center;
@@ -31,6 +46,7 @@ body {
 .main-content .cta-button {
   background-color: #a00;
   color: #fff;
+
   padding: 15px 30px;
   text-decoration: none;
   font-size: 18px;
