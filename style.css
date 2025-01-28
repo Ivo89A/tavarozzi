@@ -1,53 +1,111 @@
-body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; box-sizing: border-box; } 
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /*HEADER*/
-.header {height: 10px; background-color: #000; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; } 
+.header { background-color: #000; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; } 
 .header .contact-info { display: flex; gap: 20px; } 
 .header .contact-info i { margin-right: 5px; } 
-.header-logo { background-color: #c1121f; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; } 
-.header-logo .logo { display: flex; align-items: center; } 
-.header-logo img { height: 50px; margin-right: 10px; border-radius: 20px;} 
+.header .logo { display: flex; align-items: center; } 
+.header .logo img { height: 50px; margin-right: 10px; } 
 .header .social-icons { display: flex; gap: 10px; } 
 .header .social-icons i { font-size: 20px; } 
-.icon {
-    right: 10px; 
-    gap: 10px; 
-    color: white; 
-    align-items: center;
-    font-size: 18px; 
-    margin: 0 10px; 
-    text-decoration: none; 
-    transition: color 0.3s; 
-}
-.iconos-redes  {
-    display: inline-block;
-    align-items: center;
-    position: absolute;/* Posiciona los iconos de forma absoluta */
-    right: 10px; /* Espacio desde la derecha */
-}
-
-.icon:hover {
-    color: #ff4081; 
-}
 
 /*MAIN*/
-.main-content { text-align: center; padding: 50px 20px; } 
-.main-content h1 { font-size: 36px; font-weight: 700; margin-bottom: 20px; } 
-.main-content p { font-size: 18px; margin-bottom: 30px; } 
-.main-content .cta-button { background-color: #a00; color: #fff; padding: 15px 30px; text-decoration: none; font-size: 18px; border-radius: 5px; } 
-.main-content .cta-button i { margin-right: 10px; } 
-.main-content img { max-width: 100%; height: auto; } 
+.main-content {
+  text-align: center;
+  padding: 50px 20px;
+}
+.main-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.main-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.main-content .cta-button {
+  background-color: #a00;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.main-content .cta-button i {
+  margin-right: 10px;
+}
+.main-content img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*SECTION*/
-.section { padding: 50px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; } .section img { max-width: 100%; height: auto; } 
-.section .text-content { max-width: 50%; text-align: left; } 
-.section .text-content h2 { font-size: 28px; font-weight: 700; margin-bottom: 20px; } 
-.section .text-content p { font-size: 16px; margin-bottom: 20px; } 
-.section .text-content .details { font-size: 14px; color: #555; } 
+.section {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section img {
+  max-width: 100%;
+  height: auto;
+}
+.section .text-content {
+  max-width: 50%;
+  text-align: left;
+}
+.section .text-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.section .text-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.section .text-content .details {
+  font-size: 14px;
+  color: #555;
+}
 
 /*GALLERY*/
-.gallery { display: flex; justify-content: space-around; flex-wrap: wrap; padding: 50px 20px; } 
-.gallery img { max-width: 30%; height: auto; margin-bottom: 20px; } 
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+}
+.gallery img {
+  max-width: 30%;
+  height: auto;
+  margin-bottom: 20px;
+}
 
 /*FOOTER*/
-.footer { background-color: #000; color: #fff; text-align: center; padding: 20px; } 
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: auto;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #ccc;
+}
+.social-icons {
+  margin-top: 10px;
+}
