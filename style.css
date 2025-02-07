@@ -225,11 +225,12 @@ footer {
   margin-bottom: 20px;
 }
 .section .text-content p {
-  font-size: 16px;
+  /* font-size: 16px; */
   margin-bottom: 20px;
+  word-spacing: 3px;
 }
 .section .text-content .details {
-  font-size: 14px;
+  font-size: 15px;
   color: #fff;
 }
 
@@ -317,7 +318,7 @@ a {
 .card__button {
   background-color: var(--white-color);
   padding: 0.75rem 1rem;
-  color: var(--black-color);
+  color: blanchedalmond;
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
@@ -365,6 +366,11 @@ a {
 }
 
 /* FORMULARIO */
+
+.form {
+  background: linear-gradient(#343a40, black);
+
+}
 
 form {
   display: flex;
