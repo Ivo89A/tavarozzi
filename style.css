@@ -368,10 +368,10 @@ a {
 
 form {
   display: flex;
-  padding: 2rem 2rem 6rem;
+  padding: 0rem 0rem 6rem;
   /* box-sizing: content-box;
   margin-top: 0cm; */
-  width: 100%;
+  /* width: 100%; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -403,7 +403,7 @@ form textarea {
   text-align: center;
   margin: 50px auto;
   padding: 20px;
-  width: 100%;
+  /* width: 100%; */
   max-width: 400px;
   background: #f8f8f8;
   border-radius: 10px;
