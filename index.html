@@ -19,9 +19,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontello.css" />
     <title>Tavarozzi Deportes</title>
   </head>
   <body>
+    <a
+      href="https://api.whatsapp.com/send?phone=Tu-n%C3%B9mero-aqu%C3%AD"
+      class="btn-wsp"
+      target="_blank"
+    >
+      <i class="icon-whatsapp"></i>
+    </a>
     <header>
       <nav>
         <div class="header">
@@ -51,6 +59,7 @@
       </nav>
     </header>
     <div class="main-content">
+      <div id="vanta-canvas"></div>
       <section>
         <h1>DISEÑAMOS LA IDENTIDAD DE TU EQUIPO</h1>
         <p>Creá equipos oficiales para tu club.</p>
@@ -239,5 +248,15 @@
         ></a>
       </div>
     </footer>
+    <script>
+      VANTA.FOG({
+        el: "#vanta-canvas",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+      });
+    </script>
   </body>
 </html>
