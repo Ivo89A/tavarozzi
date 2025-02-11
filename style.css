@@ -227,11 +227,12 @@ footer {
   margin-bottom: 20px;
 }
 .section .text-content p {
-  font-size: 16px;
+  /* font-size: 16px; */
   margin-bottom: 20px;
+  word-spacing: 3px;
 }
 .section .text-content .details {
-  font-size: 14px;
+  font-size: 15px;
   color: #fff;
 }
 
@@ -319,7 +320,7 @@ a {
 .card__button {
   background-color: var(--white-color);
   padding: 0.75rem 1rem;
-  color: var(--black-color);
+  color: blanchedalmond;
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
@@ -389,12 +390,17 @@ a {
 
 /* FORMULARIO */
 
+.form {
+  background: linear-gradient(#343a40, black);
+
+}
+
 form {
   display: flex;
-  padding: 2rem 2rem 6rem;
+  padding: 0rem 0rem 6rem;
   /* box-sizing: content-box;
   margin-top: 0cm; */
-  width: 100%;
+  /* width: 100%; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -426,7 +432,7 @@ form textarea {
   text-align: center;
   margin: 50px auto;
   padding: 20px;
-  width: 100%;
+  /* width: 100%; */
   max-width: 400px;
   background: #f8f8f8;
   border-radius: 10px;
