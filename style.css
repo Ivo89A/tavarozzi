@@ -238,7 +238,6 @@ footer {
 
 /*SECTION*/
 .section {
-  /* padding: 50px 40px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -260,7 +259,6 @@ footer {
   margin-bottom: 20px;
 }
 .section .text-content p {
-  /* font-size: 16px; */
   margin-bottom: 20px;
   word-spacing: 3px;
 }
@@ -294,7 +292,6 @@ a {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
-  /* margin-inline: 1.5rem; */
   padding: 1rem; 
   box-sizing: border-box;
 }
@@ -317,8 +314,6 @@ a {
   row-gap: 1rem;
   overflow: hidden;
   transition: background-color 0.6s;
-  /* height: 100%; */
-  /* min-width: fit-content; */
 }
 
 .card__img {
@@ -432,9 +427,6 @@ a {
 form {
   display: flex;
   padding: 0rem 0rem 6rem;
-  /* box-sizing: content-box;
-  margin-top: 0cm; */
-  /* width: 100%; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -466,7 +458,6 @@ form textarea {
   text-align: center;
   margin: 50px auto;
   padding: 20px;
-  /* width: 100%; */
   max-width: 400px;
   background: #f8f8f8;
   border-radius: 10px;
