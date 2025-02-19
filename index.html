@@ -27,13 +27,37 @@
     <title>Tavarozzi Deportes</title>
   </head>
   <body>
-    <a
+    <!-- <a
       href="https://api.whatsapp.com/send?phone=Tu-n%C3%B9mero-aqu%C3%AD"
       class="btn-wsp"
       target="_blank"
     >
       <i class="fa-brands fa-whatsapp"></i>
-    </a>
+    </a> -->
+    <!-- Widget Configuration -->
+<script>
+  window.ChatWidgetConfig = {
+      webhook: {
+          url: 'http://localhost:5678/webhook/a889d2ae-2159-402f-b326-5f61e90f602e/chat',
+          route: 'general'
+      },
+      branding: {
+          logo: 'imagenes/tavarozzi_logo.jpg',
+          name: 'Tavarozzi', // Your company name
+          welcomeText: 'Hola 👋 soy el asistente personalizado de Tavarozzi, en que puedo ayudarte?', //Welcome message
+          responseTimeText: 'respondemos rapidamente' //Response time message
+      },
+      style: {
+          primaryColor: '#854fff', //Primary color
+          secondaryColor: '#6b3fd4', //Secondary color
+          position: 'right', //Position of the widget (left or right)
+          backgroundColor: '#ffffff', //Background color of the chat widget
+          fontColor: '#333333' //Text color for messages and interface
+      }
+  };
+</script>
+<script src="https://nocodeveloper.com/chat.js"></script>
+<!-- Widget Script -->
     <header>
       <nav>
         <div class="header">
