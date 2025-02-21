@@ -27,6 +27,16 @@
 
 /*PARA DISPOSITIVOS CON PANTALLAS LARGAS*/
 @media screen and (min-width: 767px) {
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    text-align: left;
+  }
+
+
   .container {
     width: 95%;
     margin-inline: auto;
@@ -118,8 +128,8 @@ footer {
   padding: 1em 0 1em 1em;
   justify-content: space-around;
   align-items: center;
-  gap: 10px;
-  flex-direction: column;
+  gap: 5px;
+  flex-direction: row;
   text-align: center;
 }
 .header .contact-info {
@@ -163,7 +173,6 @@ footer {
 }
 
 .iconos-redes {
-  /*float: right;*/
   display: flex;
   gap: 15px;
   margin-left: auto;
@@ -395,28 +404,10 @@ a {
   opacity: 1;
   pointer-events: initial;
 }
-/* BOTON WSP */
-.btn-wsp {
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;
-  background: #0df053;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 100;
-  transition: 0.6s;
-}
-.btn-wsp:hover {
-  text-decoration: none;
-  color: #0df053;
-  background: #fff;
-}
+
+
+
+
 
 /* FORMULARIO */
 
@@ -495,7 +486,7 @@ form textarea {
   background-color: #c1121f;
   color: white;
   border: none;
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
   cursor: pointer;
 }
